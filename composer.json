@@ -2,7 +2,9 @@
     "name": "resque-ext/php-resque-ext",
     "description": "a extension based on resque/php-resque, just make easier to use resque/php-resque",
     "type": "library",
+    "license": "MIT",
     "require": {
+        "php": ">=5.6",
         "resque/php-resque": "^v1.3",
         "ext-json": "*",
         "ext-pcntl": "*",
