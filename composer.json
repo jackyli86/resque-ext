@@ -1,5 +1,5 @@
 {
-    "name": "resque/php-resque-ext",
+    "name": "resque-ext/php-resque-ext",
     "description": "a extension based on resque/php-resque, just make easier to use resque/php-resque",
     "type": "library",
     "require": {
