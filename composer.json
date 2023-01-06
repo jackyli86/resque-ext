@@ -1,0 +1,28 @@
+{
+    "name": "resque/php-resque-ext",
+    "description": "a extension based on resque/php-resque, just make easier to use resque/php-resque",
+    "type": "library",
+    "require": {
+        "resque/php-resque": "^v1.3",
+        "ext-json": "*",
+        "ext-pcntl": "*",
+        "ext-posix": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "resque\\ext\\": "src/",
+            "we\\utils\\": "utils"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "resque\\test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jacky.li"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
