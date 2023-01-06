@@ -1,5 +1,5 @@
 {
-    "name": "resque-ext/php-resque-ext",
+    "name": "jackyli86/resque-ext",
     "description": "a extension based on resque/php-resque, just make easier to use resque/php-resque",
     "type": "library",
     "license": "MIT",
